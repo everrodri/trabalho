@@ -1,0 +1,21 @@
+/*button*/
+* {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    box-shadow: 0 4px 10px; rgba(0, 0, 0.1);
+    background-color: antiquewhite;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+button {
+    background-color: bisque;
+    box-shadow: 0 4px 10px; rgba(0, 0, 0.1);
+    border-radius: 4px;
+}
