@@ -9,13 +9,13 @@ function calcIMC(){
     let valorClass = '';
     if (valorFinal < 18.5) {
         valorClass = 'Abaixo do peso';
-    } else( valorFinal >= 18.5 && valorFinal < 24.9) {
+    } else if (valorFinal >= 18.5 && valorFinal < 24.9) {
         valorClass = 'Peso normal';
-    } else (valorFinal >= 25 && < 29.9) {
+    } else if (valorFinal >= 25 && valorFinal < 29.9) {
         valorClass = 'Sobrepeso';
-    } else (valorFinal >= 30 && < 39.9) {
+    } else if (valorFinal >= 30 && valorFinal < 39.9) {
         valorClass = 'Obesidade';
-    } else (valorFinal){
+    } else {
         valorClass = 'Obesidade grave';
     }
 
