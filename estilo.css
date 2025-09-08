@@ -1,8 +1,9 @@
-/*button*/
+                    /*Pagina em geral*/
 * {
     text-align: center;
 }
 
+                    /*Edição de titulo*/
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
@@ -10,10 +11,12 @@ h1 {
     background-color: antiquewhite;
 }
 
+                    /*Body*/
 body {
     background-color: aquamarine;
 }
 
+                    /*Button*/
 button {
     background-color: bisque;
     box-shadow: 0 4px 10px; rgba(0, 0, 0.1);
